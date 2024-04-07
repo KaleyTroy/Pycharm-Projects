@@ -13,5 +13,5 @@ def list_check():
     tsv_output = table.to_csv(sep='\t', index=False, header=False)
     print(tsv_output)
     pyperclip.copy(tsv_output)
-# hello
+
 list_check()
